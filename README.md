@@ -13,7 +13,8 @@ android {
 }
 ```
 
-### Use fastlane for Android in `.gitlab-ci.yml`
+
+### 2. Use fastlane for Android in `.gitlab-ci.yml`
 
 
 * Create `CREDENTIAL_JSON_BASE64` variable and set its content with the output of `base64  -i credentials.json` command.
